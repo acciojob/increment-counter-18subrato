@@ -4,6 +4,6 @@ btn.addEventListener('click',()=>{
 	alert(p.innerText);
 	let para = Number(p.innerText);
 	para = para + 1;
-	p.innerText = para;
+	p.innerText = String(para);
 	
 })
